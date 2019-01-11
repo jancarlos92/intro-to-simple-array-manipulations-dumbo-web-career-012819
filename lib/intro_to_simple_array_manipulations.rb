@@ -47,7 +47,7 @@ def using_unshift(array,string)
    array.delete("string")
  end
  
- def using_delete_at(array,element = 0)
+ def using_delete_at(array,element)
    array.delete_at(element)
  end
  end
