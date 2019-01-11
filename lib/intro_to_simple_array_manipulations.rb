@@ -19,5 +19,15 @@ def using_unshift(array,string)
  end
  
  def using_shift(array)
-   array.unshift(1)
+   array.shift()
+ end
+ 
+ def shift_with_args(array)
+   array.shift(2)
+ end
+ 
+ def using_concat(array,array2)
+ end
+ 
+ def using_insert(array,element)
  end
