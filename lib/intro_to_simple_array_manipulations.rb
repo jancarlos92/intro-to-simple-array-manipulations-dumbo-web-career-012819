@@ -20,4 +20,4 @@ def using_unshift(array,string)
    until array.size <= 2 
    array.pop  
  end 
- 
+ end
