@@ -36,4 +36,7 @@ def using_unshift(array,string)
  end
  
  def using_uniq(array)
+   array.uniq
  end
+ 
+ 
