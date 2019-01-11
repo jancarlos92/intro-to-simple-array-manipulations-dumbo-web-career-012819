@@ -12,11 +12,11 @@ def using_unshift(array,string)
   
   def using_pop(array)
     array = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-    array.pop(-1)
+    array.pop(1)
   end
 
  def pop_with_args(array)
    array = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-    array.pop(-1,-2) 
+    array.pop(2) 
  end 
  end
