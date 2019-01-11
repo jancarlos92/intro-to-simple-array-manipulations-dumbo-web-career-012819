@@ -32,7 +32,7 @@ def using_unshift(array,string)
  
  
  def using_insert(array,element)
-   array.insert(element,3)
+   array.insert(3, element)
  end
  
  def using_uniq(array)
