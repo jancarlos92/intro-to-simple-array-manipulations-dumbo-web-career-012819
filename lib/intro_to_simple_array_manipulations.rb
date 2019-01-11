@@ -17,7 +17,7 @@ def using_unshift(array,string)
 
  def pop_with_args(array)
    array = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-   until array.size.include?  
-   array.pop 
+   until array.size == 2 
+   array.pop  
  end 
  
