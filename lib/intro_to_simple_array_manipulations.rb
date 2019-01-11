@@ -43,11 +43,11 @@ def using_unshift(array,string)
    array.flatten
  end
  
- def using_delete(array, string)
+ def using_delete(array, "string")
    array.delete("string")
  end
  
- def using_delete_at(array,element)
+ def using_delete_at(array,element = 0)
    array.delete_at(element)
  
  end
