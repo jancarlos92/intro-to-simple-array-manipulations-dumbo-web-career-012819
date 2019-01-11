@@ -18,5 +18,4 @@ def using_unshift(array,string)
  def pop_with_args(array)
    array = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
     array.pop(2) 
- end 
  end
